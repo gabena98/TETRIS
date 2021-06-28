@@ -1,0 +1,143 @@
+#gameArea{
+	background-color: white;
+	margin: 0px;
+	padding: 0px;
+	border-radius: 10px 10px 10px 10px;
+}
+#gameBox{
+	height: 480px;
+	width: 480px;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	position: absolute;
+	
+
+}
+#string{
+	text-decoration-color: white;
+}
+.Mbutton{
+	width: 100%;
+	text-align: center;
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	font-family: Arial;
+	border-radius: 10px 10px 10px 10px;
+	font-size: 20px;
+}
+.Mbutton:hover{
+	background-color: red;
+}
+#menuButtons{
+	text-align: center;
+	top: 60%;
+	left: 0;
+	right: 0;
+	position: absolute;
+
+}
+#scoreTable{
+	text-align: center;
+	color: black;
+	top: 15%;
+	border: 1px solid black;
+	border-radius: 10px 10px 10px 10px;
+	font-size: 20px;
+	font-family: Arial;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+#options{
+	text-align: center;
+	top: 30%;
+	left: 0;
+	right: 0;
+	position: absolute;
+
+}
+.button{
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	font-family: Arial;
+	border-radius: 10px 10px 10px 10px;
+	font-size: 20px;
+	margin-top: 5px;
+
+}
+
+#navigationArrow{
+	text-align: center;
+	top: 90%;
+	left: 0;
+	right: 0;
+	position: absolute;
+}
+#gameOver{
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+p {
+	font-size: 20px; 
+	font-family: Arial;
+	color: white;
+}
+a {
+	text-align: center;
+	font-family: Arial;
+	color: white;
+}
+
+a:link {
+	color: white;
+}
+#titleBox{
+	
+	padding: 15px 25px;
+	width: 50em;
+	margin: auto;
+	text-align: center;
+}
+#titlecontainer {
+	text-align: center;
+	left: 50%;
+	transform: translateY(+20%);
+}
+#logincontainer{
+	text-align: center;
+	transform: translateY(+30%);
+
+}
+#loginform,#loginForm{
+	border: 2px solid black;
+	background-color: #87CEFA;
+	border-radius: 10px 10px 10px 10px;
+	padding: 15px 25px;
+	width: 10em;
+	margin: auto;
+}
+
+#loginBox{
+	margin-top: 5%;
+	text-align: center;
+}
+
+body{
+	background-image: url("tetris.png");
+}
+.Text{
+	font-family: Arial;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
