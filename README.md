@@ -1,2 +1,2 @@
 # TETRIS
-Implementing Tetris game via web application 
+Implementing Tetris game via a web application 
